@@ -1,0 +1,85 @@
+.text-center {
+    text-align: center;
+}
+
+body {
+    background-color: #FF8FB1;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.container {
+    background-color: #B93160;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-size: small;
+    font-weight: 600;
+    box-shadow: 2px 5px 100px rgba(0, 0, 0, 0.8);
+}
+
+#role {
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+.form-control {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.form-control label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+#cont {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.form-control input,
+.form-control select {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+    text-align: center;
+}
+
+.form-control textarea {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+h1 {
+    margin: 40px;
+    color: white;
+    text-shadow: 2px 2px #ff0000;
+}
+
+button {
+    background-color: #FCE2DB;
+    border: 1px solid #777;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 65%;
+    padding: 6px;
+    margin: 30px auto 20px;
+
+}

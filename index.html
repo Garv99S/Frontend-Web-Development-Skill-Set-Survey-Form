@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Skillset Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="text-center">Frontend Web-Development Skill-Set Survey Form</h1>
+    <div class="container">
+        <form id="form">
+            <div class="form-control">
+                <label for="name" id="label-name">Name</label>
+                <input id="name" type="text" placeholder="Enter Your Name">
+            </div>
+
+            <div class="form-control">
+                <label for="email" id="label-email">E-mail</label>
+                <input id="email" type="email" placeholder="Enter Your E-mail">
+            </div>
+
+            <div class="form-control">
+                <label for="role" id="label-role">Which option best describes you.</label>
+                <select name="role" id="role">
+                    <option value="Choose option">Choose option</option>
+                    <option value="Student">Student</option>
+                    <option value="intern">Intern</option>
+                    <option value="professional">Professional</option>
+                    <option value="freelancer">Freelancer</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-control">
+                <label>Languages and frameworks known(Check all that apply) :</label><br>
+                <label for="inp-1">
+                    <input type="checkbox" id="inp-1" name="inp">
+                    HTML
+                    </input>
+                </label><br>
+                <label for="inp-2">
+                    <input type="checkbox" id="inp-2" name="inp">
+                    CSS
+                    </input>
+                </label><br>
+                <label for="inp-3">
+                    <input type="checkbox" id="inp-3" name="inp">
+                    Vanilla JavaScript
+                    </input>
+                </label><br>
+                <label for="inp-4">
+                    <input type="checkbox" id="inp-4" name="inp">
+                    React Lib
+                    </input>
+                </label><br>
+                <label for="inp-5">
+                    <input type="checkbox" id="inp-5" name="inp">
+                    Angular
+                    </input>
+                </label><br>
+                <div id="cont">
+                <label for="inp-6">
+                    <input type="checkbox" id="inp-6" name="inp">
+                    Taiwind CSS and Bootstrap
+                    </input>
+                </label>
+            </div>
+            </div>
+            <hr style="border: 1px solid black">
+
+            <div class="form-control">
+                <label for="comment">
+                    Any comments for suggestion <br>
+                </label>
+                <textarea name="comment" id="comment" placeholder="Enter Your Comment here" cols="10" rows="2"></textarea>
+            </div>
+
+            <button value="submit" type="submit">
+                SUBMIT
+            </button>
+        </form>
+    </div>
+</body>
+</html>
+
